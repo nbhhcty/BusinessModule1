@@ -1,0 +1,27 @@
+PODS:
+  - BusinessModule1 (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BusinessModule1 (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BusinessModule1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BusinessModule1: 46f55d9c608a2812e5283483b3a516ebd71880b5
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: bb9f80e603e080cc89afac3b2aa233c1776e5645
+
+COCOAPODS: 1.11.3
